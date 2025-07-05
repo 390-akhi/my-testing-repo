@@ -1,0 +1,36 @@
+h3{
+    font-size: 50px;
+    
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog{
+    margin: 40px;
+    border: 10px solid tomato;
+    box-shadow: 10px 10px 20px violet;
+}
+.second{
+    /*display: none;*/
+    /*visibility: hidden;*/
+}
+.adip{
+    border: 2px solid purple;
+    /*display: block; in diplay block height will work, but normally in some word , using span, height not work.*/
+    margin: 20px;
+    padding: 10px;
+    display: inline;
+}
+.header{
+    height: 300px;
+    background-image: url('back_img.jpg');
+   /* background-image: url("../graph_html.png"); if i want to add a picture outside of the css file.*/
+    background-size: contain;
+        /*background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;*/
+}
+.dolor{
+    border: 2px solid peru;
+    height: 60px;
+    display: inline-block;
+}
